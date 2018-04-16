@@ -1,0 +1,185 @@
+/*--General CSS Start--*/
+.container-fluid{
+    padding: 0px;
+}
+
+
+/*--Scrollbar CSS Start--*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+
+/*--Navbar CSS Start--*/
+.navbar{
+    margin-bottom: 0px;
+}
+
+.navbar-default{
+    background-color: #3399ff;
+    border-color: #3399ff;
+}
+
+.navbar-default .navbar-brand{
+    color: #000;
+}
+
+.navbar-default .navbar-toggle{
+    color: #000;
+    border-color: #000;
+}
+
+.navbar-default .navbar-toggle{
+    border-color: #000;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+    background-color: #000;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    color: #fff ;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #000;
+}
+
+
+/*--Cover Css Start--*/
+.carousel.fade {
+    opacity: 1;
+}
+.carousel.fade .item {
+    transition: opacity ease-out .7s;
+    left: 0;
+    opacity: 0; /* hide all slides */
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+.carousel.fade .item:first-child {
+    top: auto;
+    opacity: 1; /* show first slide */
+    position: relative;
+}
+.carousel.fade .item.active {
+    opacity: 1;
+}
+
+
+/*--Team CSS Start--*/
+.team{
+    padding: 50px 0px 80px;
+    text-align: center;
+    background-color: #4c4c4c;
+}
+
+.team b,
+.team h2,
+.team h4{
+    margin: 20px 0px 20px;
+    color: #fff;
+}
+
+.team p{
+    color: #737373;
+}
+
+.team img{
+    height: 150px;
+    width: 150px;
+    margin-top: 80px;
+}
+
+
+/*--Testimonial CSS Start--*/
+#testimonial{
+    overflow: hidden;
+    min-height: 375px;
+    position: relative;
+    background: url(../img/childern.jpg) ;
+    background-size: cover;
+    background-color: rgba(0,0,0,.2);
+}
+
+.transparent{
+    min-height: 375px;
+    background: rgba(0, 0, 0, 0.5)
+}
+
+#testimonial .testimonial_header{
+    padding-top: 50px;
+}
+
+#testimonial .testimonial_header h2{
+    text-align: center;
+    color: #fff;
+}
+
+#testimonial .carousel-inner{
+    width: 50%;
+    margin: auto;
+}
+
+#testimonial .carousel-inner .item{
+    overflow: hidden;
+}
+
+#testimonial .carousel-inner .item .testimonial_slide p{
+    text-align: justify-all;
+    color: #fff;
+    margin-top: 10%;
+}
+
+#testimonial .carousel-inner .item .testimonial_slide h4{
+    text-align: right;
+    color: #fff;
+    padding-right: 10%;
+}
+
+.carousel-indicators{
+    left: 0;
+    margin: 0;
+    width: 100%;
+    font-size: 0;
+    height: 20px;
+    bottom: 15px;
+    padding: 0 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    position: absolute;
+    text-align: center;
+    white-space: nowrap;
+}
+
+
+/*--Footer CSS Start--*/
+footer{
+    background-color: #4c4c4c;
+}
+
+
+/* Mission Start */
+.mission {
+    max-height: 320px;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.mission h2{
+    padding: 0 0 20px;
+}
