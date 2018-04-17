@@ -40,10 +40,12 @@
 
 <!-- Cover Start -->
 <div class="container-fluid">
+    <div class="col-md-12 hover-slide text-center">
+        <a href="donation.php" class="btn btn-danger start-me">Donate Now</a>
+    </div>
     <div id="myCarousel" class="carousel fade" data-ride="carousel" data-interval="3000">
-
         <!-- Indicators -->
-        <ol class="carousel-indicators">
+        <ol class="carousel-indicators" hidden>
             <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
             <li data-target="#myCarousel" data-slide-to="1"></li>
             <li data-target="#myCarousel" data-slide-to="2"></li>
@@ -61,8 +63,8 @@
                 <img src="img/nature.jpg" alt="New York" style="width:100%;">
             </div>
         </div>
-
     </div>
+
 </div>
 <!-- Cover End -->
 
@@ -175,18 +177,15 @@
 <footer>
     <div class="container">
         <div class="row">
-            <div class="col-sm-2">
-                <h6>Copyright &copy; 2018 Akshay Gupta</h6>
-            </div>
-            <div class="col-sm-4">
-                <h6>About Us</h6>
+            <div class="col-sm-4 text-justify">
+                <h4>About Us</h4>
                 <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
-                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
-                    Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text,
-                    and a search for 'lorem ipsum' will uncover many web sites still in their infancy. </p>
+                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,
+                    as opposed to using 'Content here, content here', making it look like readable English</p>
             </div>
+            <div class="col-sm-4"></div>
             <div class="col-sm-2">
-                <h6>Navigation</h6>
+                <h4>Navigation</h4>
                 <ul class="list-unstyled">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
@@ -195,16 +194,16 @@
                 </ul>
             </div>
             <div class="col-sm-2">
-                <h6>Follow Us</h6>
+                <h4>Follow Us</h4>
                 <ul class="list-unstyled">
                     <li><a href="#">Twitter</a></li>
                     <li><a href="#">Facebook</a></li>
                     <li><a href="#">Instagram</a></li>
                 </ul>
             </div>
-            <div class="col-sm-2">
-                <h6>Coding with <span class="glyphicon glyphicon-heart"></span> by Akshay</h6>
-            </div>
+        </div>
+        <div class="text-center">
+                <h6>Copyright &copy; 2018 Akshay Gupta | Coding with <span class="glyphicon glyphicon-heart"></span> by Akshay</h6>
         </div>
     </div>
 </footer>

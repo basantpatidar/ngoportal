@@ -95,6 +95,10 @@
     color: #fff;
 }
 
+.team h2{
+    text-decoration: underline;
+}
+
 .team p{
     color: #737373;
 }
@@ -169,17 +173,57 @@
 
 /*--Footer CSS Start--*/
 footer{
-    background-color: #4c4c4c;
+    background-color: #35474d;
 }
 
+footer h4, footer h6{
+    color: #fff;
+}
 
-/* Mission Start */
+footer p{
+    color: #fff;
+}
+
+footer ul>li>a{
+    color: #fff;
+}
+
+footer ul>li>a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+/*--Mission CSS Start--*/
 .mission {
     max-height: 320px;
-    padding: 100px 0;
+    padding: 50px 0;
     text-align: center;
 }
 
 .mission h2{
     padding: 0 0 20px;
+    text-decoration: underline;
 }
+
+/*--------------------------*/
+.hover-slide {
+    position: absolute;
+    /*margin-left: 30%;*/
+    z-index: 10;
+    margin-top: 16%;
+}
+
+.btn.start-me{
+    margin: 0 auto;
+    padding: 10px 35px 10px 35px;
+}
+
+/*Donate Well CSS Start*/
+#donation .well{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+
+/*Donate Well CSS End*/
