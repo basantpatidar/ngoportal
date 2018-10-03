@@ -1,10 +1,11 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: basant
+ * User: basant patidar
  * Date: 4/10/2018
  * Time: 4:58 PM
  */
+//Login Process Page
 require_once ("config.php");
 $email = $_POST['email'];
 $password = $_POST['password'];
