@@ -6,7 +6,7 @@
  * Time: 5:41 PM
  */
 
-
+//Get data
 function fetchVolunteer($email, $password){
     global $mysqli, $db_table_prefix;
     $stmt = $mysqli->prepare("SELECT Email FROM ".$db_table_prefix."login WHERE Email = ? AND Password = ? LIMIT 1");
