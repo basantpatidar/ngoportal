@@ -42,6 +42,8 @@ function fetchVolunteer($email, $password){
     $stmt->close();
     return ($row);
 }
+
+//function to get students data
 function fetchStudent($sname, $password){
     global $mysqli, $db_table_prefix;
     $stmt = $mysqli->prepare("SELECT sname FROM ".$db_table_prefix."studentrecord WHERE sname = ? AND password = ? LIMIT 1");
