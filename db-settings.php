@@ -5,7 +5,7 @@ $db_host = "localhost"; //Host address (most likely localhost)
 $db_name = "ngoportal"; //Name of Database
 $db_user = "root"; //Name of database user
 $db_pass = ""; //Password for database user
-//$db_table_prefix = ""; // if the table prefix exists use this variable as a global
+//$db_table_prefix = ""; // if the table prefix exists use this variable as a global variable 
 
 
 //following variable declaration is for next class :)
