@@ -12,6 +12,7 @@ $password = $_POST['password'];
 $loginUser = $_POST['login-type'];
 print("$loginUser");
 
+//PasswordChecker for Volunteer
 if($loginUser == 'Volunteer') {
     $passwordChecker = fetchVolunteer($email, $password);
     if ($passwordChecker) {
